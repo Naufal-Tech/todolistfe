@@ -60,7 +60,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](<img src="image/logo.jpg" alt="Logo" width="80" height="80">
+[![Product Name Screen Shot][product-screenshot]](<img src="image/logo.jpg" alt="Logo" width="100" height="100">
 </a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
