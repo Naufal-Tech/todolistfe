@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Naufal-Tech/todolistfe">
-    <img src="image/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="image/logo.jpg" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">MOCK UP - TODOLIST (BINAR)</h3>
@@ -53,7 +53,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot]<img src="image/screenshot.jpg" alt="Logo" width="100" height="100">
+<img src="image/screenshot.jpg" alt="Logo" width="100" height="100">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
