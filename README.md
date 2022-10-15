@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][https://github.com/naufal-tech]
-[![Forks][forks-shield]][https://github.com/naufal-tech/todolistfe/network/members]
-[![Stargazers][stars-shield]][https://github.com/naufal-tech/todolistfe/stargazers]
-[![Issues][issues-shield]][https://github.com/naufal-tech/todolistfe/issues]
+[![Contributors][contributors-shield]https://github.com/naufal-tech][contributors-url]
+[![Forks][forks-shield]https://github.com/naufal-tech/todolistfe/network/members][forks-url]
+[![Stargazers][stars-shieldhttps://github.com/naufal-tech/todolistfe/stargazers]][stars-url]
+[![Issues][issues-shield]https://github.com/naufal-tech/todolistfe/issues][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -60,8 +60,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](<img src="image/logo.jpg" alt="Logo" width="100" height="100">
-</a>)
+[![Product Name Screen Shot]<img src="image/screenshot.jpg" alt="Logo" width="100" height="100">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
