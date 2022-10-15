@@ -55,7 +55,7 @@
 
 <div align="center">
   <a href="https://github.com/Naufal-Tech/todolistfe">
-    <img src="image/Screenshot.jpg" alt="Logo" width="1000" height="1000">
+    <img src="image/Screenshot.jpg" alt="Logo" width="1000" height="500">
   </a>
 </div>
 
