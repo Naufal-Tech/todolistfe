@@ -1,12 +1,5 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]https://github.com/naufal-tech][contributors-url]
-[![Forks][forks-shield]https://github.com/naufal-tech/todolistfe/network/members][forks-url]
-[![Stargazers][stars-shieldhttps://github.com/naufal-tech/todolistfe/stargazers]][stars-url]
-[![Issues][issues-shield]https://github.com/naufal-tech/todolistfe/issues][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -130,7 +123,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Mark the Todo List
 - [x] Remove Done Todo List
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/naufal-tech/todolistfe/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
