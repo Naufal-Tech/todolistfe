@@ -16,7 +16,7 @@ const ListItem = ({ note }) => {
     if (isError) {
       console.error(message);
     }
-  }, [note, dispatch, message]);
+  }, [note, dispatch, message, isError]);
 
   // Change checkbox status with double click
   const changeStatus = () => {

@@ -9,7 +9,7 @@ import ListItem from "../components/ListItem";
 
 const Dashboard = () => {
   const { user } = useSelector((state) => state.auth);
-  const { notes, isError, isLoading, message } = useSelector(
+  const { notes, isError, message } = useSelector(
     (state) => state.notes
   );
 
