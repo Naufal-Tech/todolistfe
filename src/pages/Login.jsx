@@ -8,11 +8,11 @@ import Loading from "../components/Loading";
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: "",
+    name: "",
     password: "",
   });
 
-  const { email, password } = formData;
+  const { name, password } = formData;
 
   const { user, isError, isLoading, isSuccess, message } = useSelector(
     (state) => state.auth
@@ -46,12 +46,12 @@ const Login = () => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    if (!email || !password) {
+    if (!name || !password) {
       return toast.error("Please add all fields!");
     }
 
     const userData = {
-      email,
+      name,
       password,
     };
 
@@ -67,12 +67,13 @@ const Login = () => {
           <form onSubmit={onSubmit}>
             <div className="form-group">
               <input
-                type="email"
-                name="email"
-                id="email"
-                value={email}
+                type="text"
+                name="name"
+                id="name"
+                maxLength={4}
+                value={name}
                 onChange={onChange}
-                placeholder="email..."
+                placeholder="userid..."
               />
             </div>
             <div className="form-group">

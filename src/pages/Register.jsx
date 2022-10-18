@@ -10,12 +10,11 @@ import Loading from "../components/Loading";
 const Register = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     password: "",
     password2: "",
   });
 
-  const { name, email, password, password2 } = formData;
+  const { name, password, password2 } = formData;
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -51,7 +50,7 @@ const Register = () => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    if (!name || !email || !password || !password2) {
+    if (!name || !password || !password2) {
       return toast.error("Please add all fields!");
     }
 
@@ -61,7 +60,6 @@ const Register = () => {
 
     const userData = {
       name,
-      email,
       password,
     };
 
@@ -78,21 +76,12 @@ const Register = () => {
             <div className="form-group">
               <input
                 type="text"
+                maxLength={4}
                 name="name"
                 id="name"
                 value={name}
                 onChange={onChange}
-                placeholder="name..."
-              />
-            </div>
-            <div className="form-group">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                value={email}
-                onChange={onChange}
-                placeholder="email..."
+                placeholder="userid..."
               />
             </div>
             <div className="form-group">
