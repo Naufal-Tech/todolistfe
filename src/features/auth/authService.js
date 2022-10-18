@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/users/";
+const API_URL = "https://betodolist.herokuapp.com/";
 
 // Register user
 const register = async (userData) => {
