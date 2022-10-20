@@ -1,4 +1,6 @@
 import axios from "axios";
+// import dotenv
+require('dotenv').config();
 
 const API_URL = "https://betodolist.herokuapp.com/api/users/";
 
