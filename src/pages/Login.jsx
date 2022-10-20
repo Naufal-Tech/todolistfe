@@ -70,6 +70,7 @@ const Login = () => {
                 type="text"
                 name="name"
                 id="name"
+                pattern="^[0-9]*$"
                 maxLength={4}
                 value={name}
                 onChange={onChange}

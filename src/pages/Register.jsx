@@ -47,6 +47,8 @@ const Register = () => {
     }));
   };
 
+
+
   const onSubmit = (e) => {
     e.preventDefault();
 
@@ -66,6 +68,7 @@ const Register = () => {
     dispatch(register(userData));
   };
 
+  
   return (
     <>
       {isLoading && <Loading />}
@@ -79,6 +82,7 @@ const Register = () => {
                 maxLength={4}
                 name="name"
                 id="name"
+                pattern="^[0-9]*$"
                 value={name}
                 onChange={onChange}
                 placeholder="userid..."
