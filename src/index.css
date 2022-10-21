@@ -120,15 +120,23 @@ button:hover {
 .header .logo a {
   font-weight: 500;
   font-size: 20px;
+ 
 }
 
 .header .logo a span {
+  margin-left: 5px;
   font-weight: 800;
   padding: 5px;
   background-color: #eeeeee;
   color: #393e46;
   border-radius: 5px;
 }
+
+.binar {
+  margin-left: 45%;
+  margin-bottom: 5%;
+}
+
 
 .header .menu ul {
   display: flex;

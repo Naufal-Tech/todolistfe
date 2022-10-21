@@ -1,6 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-
 import { reset, logout } from "../features/auth/authSlice";
 
 import {
@@ -25,7 +24,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <Link to={user ? "/" : "/login"}>
-          <span>My</span> List
+          <span>Todo</span> List
         </Link>
       </div>
       {user ? (

@@ -62,6 +62,7 @@ const Login = () => {
     <>
       {isLoading && <Loading />}
       <div className="register-login">
+        <img src="../favicon.png" alt="binar" style={{height: "50px", width: "50px"}} className="binar"/>
         <h1>Login</h1>
         <div className="form">
           <form onSubmit={onSubmit}>
