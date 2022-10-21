@@ -45,7 +45,11 @@ npm install
 ## Setting API_URL on Frontend
 
 ```
-Change the API_URL on AuthService.js, to your Backend Environment API.
+Change the API_URL on authService.js, to your Backend Environment API.
+```
+
+```
+Change the API_URL on noteSerive.js, to your Backend Environment API.
 ```
 
 ---

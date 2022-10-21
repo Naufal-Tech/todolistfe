@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/notes/";
+const API_URL = "https://betodolist.herokuapp.com/api/notes/";
 
 // Get user's notes
 const getNotes = async (token) => {
